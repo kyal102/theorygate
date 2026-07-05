@@ -1,6 +1,6 @@
 # TheoryGate
 
-![python](https://img.shields.io/badge/python-3.9%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![deps](https://img.shields.io/badge/dependencies-stdlib--only-blue)
+[![CI](https://github.com/kyal102/theorygate/actions/workflows/ci.yml/badge.svg)](https://github.com/kyal102/theorygate/actions/workflows/ci.yml) ![python](https://img.shields.io/badge/python-3.9%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![deps](https://img.shields.io/badge/dependencies-stdlib--only-blue)
 
 **A deterministic determinizer for math/physics theory claims.**
 
