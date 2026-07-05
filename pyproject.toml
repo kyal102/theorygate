@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "theorygate"
+version = "0.1.0"
+description = "A deterministic determinizer for math/physics theory claims: exact verdicts, refuses to guess."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["verification", "physics", "representation-theory", "claim-checking", "ai-safety", "deterministic"]
+dependencies = []
+
+[project.scripts]
+theorygate = "theorygate.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["theorygate*"]
